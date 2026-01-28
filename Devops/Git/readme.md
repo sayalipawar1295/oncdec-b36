@@ -18,7 +18,7 @@ git --version
 <img width="1917" height="676" alt="image" src="https://github.com/user-attachments/assets/cced9bea-a4cd-455c-b88e-c2d1228689e4" />
 
 ````
-git cloone https://github.com/abhipraydhoble/project-01.git
+git clone https://github.com/abhipraydhoble/project-01.git
 ````
 <img width="1882" height="276" alt="image" src="https://github.com/user-attachments/assets/1e7c9ee9-7b51-4021-ae86-293e142c3ce6" />
 
