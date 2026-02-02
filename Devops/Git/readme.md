@@ -1,4 +1,5 @@
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Git Logo" width="150"/>
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/d0ac60a0-83fd-46d7-b105-09fe21c86b6c" />
+
 
 
 ## What is Git?
