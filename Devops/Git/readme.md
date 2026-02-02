@@ -12,11 +12,11 @@ Git is a **distributed version control system (DVCS)** that helps track changes,
 
 #### Que. Differnence between CVCS and DVCS
 
-# CVCS vs. DVCS
+## CVCS vs. DVCS
 
 Version control systems are categorized into **Centralized Version Control Systems (CVCS)** and **Distributed Version Control Systems (DVCS)**.
 
-## Differences:
+
 
 | Feature | CVCS (Centralized Version Control System) | DVCS (Distributed Version Control System) |
 |---------|------------------------------------------|------------------------------------------|
@@ -31,6 +31,8 @@ Version control systems are categorized into **Centralized Version Control Syste
 #### Git Working
 <img width="619" height="172" alt="image" src="https://github.com/user-attachments/assets/222962d5-adfb-403c-b590-84d43aee8d0b" />
 
+---
+<img width="1100" height="338" alt="image" src="https://github.com/user-attachments/assets/ec101e56-17b6-4468-ac87-cc7b65f4df57" />
 
 ## Github:
 - GitHub is a cloud-based platform where developers store, share, and work together on code.
