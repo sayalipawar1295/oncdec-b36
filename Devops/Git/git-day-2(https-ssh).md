@@ -9,7 +9,7 @@ git clone https://github.com/abhipraydhoble/git-practice.git
 ````
 
 ````
-cd OnCdec-B29
+cd git practice
 ````
 ## set up identity
 
