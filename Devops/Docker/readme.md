@@ -1,6 +1,4 @@
 
-
-# $${\color{lightblue}{\textbf{🐳 Docker}}}$$
 <img width="1262" height="657" alt="image" src="https://github.com/user-attachments/assets/7fb03208-1d32-4a77-b84c-b50fb166245e" />
 ---
 
