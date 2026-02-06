@@ -219,3 +219,4 @@ sudo chmod 777 /var/run/docker.sock
 ````
 docker --version
 ````
+<img width="1286" height="412" alt="image" src="https://github.com/user-attachments/assets/7a6f52ed-f0f3-4c03-a7ce-eac44ec6cb98" />
