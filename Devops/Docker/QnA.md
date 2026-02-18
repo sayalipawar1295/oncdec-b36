@@ -1,6 +1,6 @@
 ---
 1. What is Docker and why is it used?
-2. Difference between Docker and Virtual Machines?
+2. Difference between Docker Container and Virtual Machines?
 3. What is a Docker Image vs a Docker Container?
 4. What is Docker Hub?
 5. Explain the Docker architecture (Docker Engine, Daemon, CLI, Registry).
