@@ -74,15 +74,7 @@ Kubernetes provides:
 <img width="1122" height="262" alt="image" src="https://github.com/user-attachments/assets/3f1de932-01a7-4116-b6da-95cc33f7ecba" />
 <img width="1460" height="598" alt="image" src="https://github.com/user-attachments/assets/0b620452-ba09-4329-9a6d-40c922e18896" />
 
-## Kubernetes Architecture (Simple Words)
-
-![Image](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
-
-![Image](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
-
-![Image](https://www.startkubernetes.com/images/blog/k8s-architecture.png)
-
-![Image](https://miro.medium.com/1%2A-zkqfnQqG99F09dPDLJF5w.png)
+---
 
 Think of **Kubernetes (K8s)** like a **manager of containers**.
 It makes sure your application containers are running properly, even if something fails.
