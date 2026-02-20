@@ -110,8 +110,7 @@ Main components:
 * Makes sure desired state = actual state.
 * If a pod crashes → it creates a new one.
 
-👉 In simple words:
-Control Plane = **Brain + Decision Maker**
+
 
 ---
 
