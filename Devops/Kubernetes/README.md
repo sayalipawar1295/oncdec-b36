@@ -74,6 +74,87 @@ Kubernetes provides:
 <img width="1122" height="262" alt="image" src="https://github.com/user-attachments/assets/3f1de932-01a7-4116-b6da-95cc33f7ecba" />
 <img width="1460" height="598" alt="image" src="https://github.com/user-attachments/assets/0b620452-ba09-4329-9a6d-40c922e18896" />
 
+## Kubernetes Architecture (Simple Words)
+
+![Image](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
+
+![Image](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
+
+![Image](https://www.startkubernetes.com/images/blog/k8s-architecture.png)
+
+![Image](https://miro.medium.com/1%2A-zkqfnQqG99F09dPDLJF5w.png)
+
+Think of **Kubernetes (K8s)** like a **manager of containers**.
+It makes sure your application containers are running properly, even if something fails.
+
+A Kubernetes cluster has **2 main parts**:
+
+---
+
+# 1️⃣ Control Plane (Brain of the cluster)
+
+This is the **decision maker**. It controls everything.
+
+Main components:
+
+### 🔹 API Server
+
+* Entry point of Kubernetes.
+* When you run `kubectl apply`, request goes here.
+* It talks to all other components.
+
+### 🔹 etcd
+
+* Database of Kubernetes.
+* Stores cluster state (which pod running, configs, secrets, etc).
+
+### 🔹 Scheduler
+
+* Decides **which Node** will run a new Pod.
+* Example: If Node1 has more CPU free → it selects Node1.
+
+### 🔹 Controller Manager
+
+* Makes sure desired state = actual state.
+* If a pod crashes → it creates a new one.
+
+👉 In simple words:
+Control Plane = **Brain + Decision Maker**
+
+---
+
+# 2️⃣ Worker Nodes (Where apps run)
+
+This is where your **actual application containers run**.
+
+Each Worker Node contains:
+
+### 🔹 Kubelet
+
+* Agent running on every node.
+* Talks to control plane.
+* Ensures containers are running.
+
+### 🔹 Container Runtime
+
+* Actually runs containers.
+* Example: containerd, CRI-O (Earlier Docker).
+* 
+### 🔹 What is a Pod?
+
+A Pod is the smallest deployable unit in Kubernetes.
+
+* You don’t deploy containers directly in Kubernetes.
+* You deploy them inside a Pod.
+### 🔹 Kube-proxy
+
+* Handles networking.
+* Manages Service traffic routing.
+
+---
+
+
+
 <img width="1213" height="246" alt="image" src="https://github.com/user-attachments/assets/3990d092-87b7-4e51-8f2d-9fcfcb48f05b" />
 <img width="1265" height="567" alt="image" src="https://github.com/user-attachments/assets/c7070f43-d884-4cd9-ad69-8e2e5633c851" />
 
