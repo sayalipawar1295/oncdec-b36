@@ -1,15 +1,18 @@
 
 
 # HPA with Minikube
+---
 
-#  make sure your minikube cluster is running
+###  make sure your minikube cluster is running
+---
 
-# enable metrics-server
+### enable metrics-server
 ````
 minikube addons enable metrics-server
 ````
+---
 
-# create deployment 
+### create deployment 
 ````
 vim hpa-dep.yaml
 ````
@@ -45,7 +48,7 @@ kubectl apply -f hpa-dep.yaml
 ````
 
 ---
-# create service.yaml
+### create service.yaml
 ````
 apiVersion: v1
 kind: Service
@@ -63,8 +66,9 @@ spec:
 ````
 kubectl apply -f  service.yaml
 ````
+---
 
-# create hpa.yaml
+### create hpa.yaml
 
 
 ````
@@ -90,8 +94,9 @@ spec:
 ````
 kubectl apply -f hpa.yaml
 ````
+---
 
-# Generate Load
+### Generate Load
 ````
 kubectl run -i --tty load-generator --image=busybox /bin/sh
 ````
@@ -100,7 +105,9 @@ kubectl run -i --tty load-generator --image=busybox /bin/sh
 ````
 while true; do wget -q -O- http://hpa-service; done
 ````
-# check
+---
+
+### check
 ````
 kubectl get hpa -w
 kubectl get pods
