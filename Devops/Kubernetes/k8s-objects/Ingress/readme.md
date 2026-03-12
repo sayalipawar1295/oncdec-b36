@@ -1,7 +1,6 @@
 **Ingress**
 - Ingress is a Kubernetes resource that manages external HTTP/HTTPS access to services inside the cluster 
 
-<img width="1400" height="1025" alt="image" src="https://github.com/user-attachments/assets/a55a8edc-3921-454a-9eb4-5e65b531ecb0" />
 
 
 
@@ -89,4 +88,3 @@ http://<AWS-LOAD-BALANCER-DNS>/tea
 
 ---
 
-If you hit **any error**, copy-paste the error here and I’ll fix it with you step by step 💪
