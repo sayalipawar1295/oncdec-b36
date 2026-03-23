@@ -148,4 +148,4 @@ To access them:
 
 
 
-👉 **Complete architecture README (EC2 + VPC + ALB + ASG)** — this is what companies actually expect 🚀
+
