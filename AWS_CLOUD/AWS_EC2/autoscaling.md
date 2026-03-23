@@ -17,11 +17,11 @@ Scaling means increasing or decreasing resources based on demand.
 - Add or remove servers  
 - Example: Adding multiple EC2 instances  
 
-👉 In cloud environments, horizontal scaling is more commonly used.
+=> In cloud environments, horizontal scaling is more commonly used.
 
 ---
 
-# 📌 What is Auto Scaling?
+#  What is Auto Scaling?
 
 Auto Scaling is a feature in AWS that automatically adjusts the number of EC2 instances based on demand.
 
@@ -35,18 +35,13 @@ It increases resources when traffic is high and decreases them when traffic is l
 - Maintains application performance  
 - Reduces manual effort  
 - Helps in cost optimization  
-
----
-
-### 🏢 Real-Time Usage
-
 - During high traffic → new instances are launched  
 - During low traffic → extra instances are terminated  
 - Works with Load Balancer to distribute traffic  
 
 ---
 
-# ⚙️ Steps to Configure Auto Scaling
+#  Steps to Configure Auto Scaling
 
 ---
 
