@@ -77,6 +77,6 @@ provider "aws" {
 ````
 terraformm init
 ````
+<img width="1916" height="1000" alt="image" src="https://github.com/user-attachments/assets/638531e9-0ea9-4e49-9cb2-e769a850af52" />
 
-<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/51e17393-8cdf-467d-bd31-b82837653ed7" />
 
