@@ -39,13 +39,6 @@
 | **Ease of Use**      | User-friendly, flexible              | AWS-centric, steeper learning curve   |
 
 
----
-
-
-![image](https://github.com/user-attachments/assets/83c85698-f5b9-43b7-80fe-85ecb229cd8a)
-
-
-  
 
 ---
 # TF Installation
@@ -84,3 +77,6 @@ provider "aws" {
 ````
 terraformm init
 ````
+
+<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/51e17393-8cdf-467d-bd31-b82837653ed7" />
+
